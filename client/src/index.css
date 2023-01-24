@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans';
+}
+
+.container {
+  background-color: darkslategray;
+  text-transform: uppercase;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  margin: 20px;
+}
+
+.brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.nav-left a:hover {
+  opacity: 0.85;
+}
+
+.nav-left {
+  margin-left: 0;
+}
+
+.nav-left a {
+  margin: 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Nunito Sans';
+}
+
+.latest {
+  margin: 10px auto;
+  width: 90%;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.card {
+  width: 700px;
+  height: 400px;
+  margin: 20px;
+  padding: 3px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card a {
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-size: 17px;
+  color: black;
+}
+
+.card a:hover {
+  transition: all 0.5s;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.rating {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  padding: 1rem 0px;
+}
+
+.text {
+  margin: 5px auto;
+}
